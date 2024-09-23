@@ -1,0 +1,194 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* * {
+    outline: 2px solid red;
+  } */
+
+body{
+    background-color: antiquewhite;
+}
+
+.menubar{
+    display:flex;
+    flex-wrap: wrap;
+    /* gap: 2px; */
+    align-content: center;
+    align-items: center;
+    text-align: right;
+    background-color: white;
+    border-radius: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+    position: relative;
+}
+
+.menu_item{
+    flex: 1;
+    color: #392222;;
+}
+
+.menu_item:hover{
+    color: #f58092;
+    position: inherit;
+}
+
+.logo{
+    height: 64px;
+    flex-grow: 0;   
+}
+
+.hero{
+    background-image: url(images/donut_bg.png);
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 24px;
+    height: 100vh;
+}
+
+.hero_content{
+    display: flex;
+    margin-top: 210px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_text_left{
+    flex: 1;
+    text-align: center;
+}
+
+.hero_text_left h1{
+   color: #f58092;
+   font-size: 64px;
+}
+
+.hero_text_left p{
+    font-size: large;
+    color: #392222;
+}
+
+button{
+    background-color: #f58092;
+    border: solid #f58092;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 32px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: #392222;
+    border: solid #392222;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 32px;
+    color: white;
+}
+.section1{
+    position: relative;
+}
+
+.section1{
+    padding: 120px;
+    background-image: url(images/sprinkle.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+.informations{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.informations h1{
+    color: #392222;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.informations p{
+    color: #392222;
+}
+
+.informations_content_left{
+    flex: 1;
+}
+
+.donut{
+    flex: 1;
+    height: 480px;
+    width: auto;
+    align-items: end;
+}
+
+.block_cta{
+    padding-left: 256px;
+    padding-right: 256px;
+    margin-top: 64px;
+}
+
+.block_content{
+    background-color: #f58092;
+    border-radius: 24px;
+    padding: 64px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta_header{
+    color: white;
+    font-size: 56px;
+}
+
+.button_cta{
+    color: white;
+    background-color: #392222;
+}
+
+.button_cta:hover{
+    background-color: white;
+    color: #392222;
+    border: solid white;
+}
+
+.thefooter{
+    background-color: #392222;
+    padding: 32px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 64px;
+    display: flex;
+    color: white;
+    align-content: center;
+    align-items: center;
+}
+
+.logo_foooter{
+    height: 64px;
+    flex-grow: 0; 
+}
+
+.footer_left{
+    flex: 1;
+}
+
+.list_item:hover{
+    color: #f58092;
+}
+
+.copyright{
+    text-align: center;
+
+}
